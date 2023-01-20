@@ -5,7 +5,7 @@ app.get('/', function (req, res) {
   res.send('Hello World Welcome to Openshift!\n');
 });
 
-app.get('/mars', function(req, res) {
+app.get('/marss', function(req, res) {
     res.send('Hello Mars!\n');
 });
 
